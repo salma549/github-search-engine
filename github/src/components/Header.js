@@ -82,7 +82,7 @@ const Header = ({ onSearch }) => {
             <a href="https://www.linkedin.com/in/salma-sanubar-8a7776251" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </li>
           <li className="text-white">
-            <a href="mailto:salmasanubar786@gmail.com" className="text-white">Mail</a>
+            <a href="mailto:salmasanubar786@gmail.com" target="_blank" rel="noopener noreferrer">Mail</a>
           </li>
           <li className="text-white">Contact</li>
         </ul>
@@ -98,7 +98,7 @@ const Header = ({ onSearch }) => {
         <input
           type="text"
           value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          onChange={(event) => setUsername(event.target.value)}
           placeholder="Search Your Github User here ..."
           className="p-3 h-10 rounded-md w-full md:w-3/4 bg-gradient-to-r from-purple-300 to-pink-300 placeholder-gray-500 mb-2 md:mb-0"
         />
